@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Abhi37/goFormatter.github.io/static/css/main.513b15b8.css",
-    "main.js": "/Abhi37/goFormatter.github.io/static/js/main.0e6ea770.js",
-    "static/js/453.35016287.chunk.js": "/Abhi37/goFormatter.github.io/static/js/453.35016287.chunk.js",
+    "main.css": "/Abhi37/goFormatter.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/Abhi37/goFormatter.github.io/static/js/main.7774c592.js",
+    "static/js/453.648d3dbd.chunk.js": "/Abhi37/goFormatter.github.io/static/js/453.648d3dbd.chunk.js",
+    "static/media/logo.svg": "/Abhi37/goFormatter.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Abhi37/goFormatter.github.io/index.html",
-    "main.513b15b8.css.map": "/Abhi37/goFormatter.github.io/static/css/main.513b15b8.css.map",
-    "main.0e6ea770.js.map": "/Abhi37/goFormatter.github.io/static/js/main.0e6ea770.js.map",
-    "453.35016287.chunk.js.map": "/Abhi37/goFormatter.github.io/static/js/453.35016287.chunk.js.map"
+    "main.f855e6bc.css.map": "/Abhi37/goFormatter.github.io/static/css/main.f855e6bc.css.map",
+    "main.7774c592.js.map": "/Abhi37/goFormatter.github.io/static/js/main.7774c592.js.map",
+    "453.648d3dbd.chunk.js.map": "/Abhi37/goFormatter.github.io/static/js/453.648d3dbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.513b15b8.css",
-    "static/js/main.0e6ea770.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7774c592.js"
   ]
 }
