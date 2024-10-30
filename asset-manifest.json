@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Abhi37/goFormatter.github.io/static/css/main.513b15b8.css",
+    "main.js": "/Abhi37/goFormatter.github.io/static/js/main.0e6ea770.js",
+    "static/js/453.35016287.chunk.js": "/Abhi37/goFormatter.github.io/static/js/453.35016287.chunk.js",
+    "index.html": "/Abhi37/goFormatter.github.io/index.html",
+    "main.513b15b8.css.map": "/Abhi37/goFormatter.github.io/static/css/main.513b15b8.css.map",
+    "main.0e6ea770.js.map": "/Abhi37/goFormatter.github.io/static/js/main.0e6ea770.js.map",
+    "453.35016287.chunk.js.map": "/Abhi37/goFormatter.github.io/static/js/453.35016287.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.513b15b8.css",
+    "static/js/main.0e6ea770.js"
+  ]
+}
