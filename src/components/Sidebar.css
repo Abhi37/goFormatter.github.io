@@ -1,0 +1,211 @@
+.sidebar {
+    width: 200px;
+    max-width: 100%;
+    height: calc(100vh - 20px);
+    background-color: #171717;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar.collapsed {
+    width: 70px;
+  }
+
+  .sidebar-dark{
+    background-color: #171717;
+    color: #f0f0f0;
+  }
+
+  .sidebar-light{
+    background-color: #F7F9F8;
+    color: #333;
+  }
+  
+  .top-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .logo {
+    font-size: 3.2rem;
+  }
+  
+  .theme-btn,
+  .collapse-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+    cursor: pointer;
+    
+  }
+  
+  /* .search-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 1.2rem;
+  } */
+  
+  .top-icons,
+  .search-icon, .search-box {
+    padding: 8px;
+  }
+
+   .icon {
+    color: #fff;
+    font-size: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.icon-expanded{
+    font-size: 1.9rem; /* Increase icon size here */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.icon-collapsed{
+    font-size: 2.0rem; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+/**Menu Item*/
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+
+
+  
+  .menu-item:hover {
+    /* background-color: #333; */
+    border-radius: 5px;
+  }
+  
+    /* .menu-icon {
+    color: #20b436;
+    font-size: 2.5rem; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }   */
+  
+  .chevron {
+    margin-left: auto;
+    transition: transform 0.3s;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .submenu {
+    list-style: none;
+    padding: 5px 20px;
+    margin: 0px;
+  }
+  
+  .submenu-item {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submenu-item:hover {
+    background-color: #444;
+    border-radius: 5px;
+  }
+
+
+/* .bulb{
+    color: #5B52E6;
+} */
+
+.sidebar.dark {
+    background-color: #171717 ; 
+    color: #f0f0f0;
+  }
+
+  .sidebar.light {
+    background-color: #F7F9F8;
+    color: #333;
+  }
+
+  /* Hover effect for .menu-item in dark theme */
+.sidebar.dark .menu-item:hover {
+    background-color: #444444 ;
+    color: #5B52E6;
+}
+
+/* Hover effect for .menu-item in light theme */
+.sidebar.light .menu-item:hover {
+    background-color: #CABFFE;
+    color: #5B52E6;
+}
+
+.sidebar.light .submenu-item:hover {
+    background-color: #CABFFE;
+    color: #5B52E6;
+  }
+
+  .sidebar.dark .submenu-item:hover {
+    background-color: #333;
+    color: #5B52E6;
+  }
+/*Menu Item*/
+
+
+/* Remove link styles in sidebar */
+.submenu-item a {
+  color: inherit;  /* Inherit color from parent */
+  text-decoration: none;  /* Remove underline */
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.submenu-item a:hover {
+  color: inherit;  /* Keep color the same on hover */
+}
+

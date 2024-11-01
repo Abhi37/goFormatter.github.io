@@ -1,0 +1,174 @@
+.json-formatter {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    padding: 10px;
+}
+
+.json-formatter.dark {
+    background-color: #171717;
+    color: #f0f0f0;
+}
+
+.json-formatter.light {
+    background-color: #f7f9f8;
+    color: #333;
+}
+
+.json-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapse-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+}
+
+.json-container {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.json-input-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    border: 1px solid;
+
+    border-radius: 5px;
+}
+
+.json-input-container.dark{
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.json-input-container.light{
+    background-color: #ffffff;
+    color: #333;
+}
+
+.json-input {
+    flex-grow: 1;
+    padding: 10px;
+    /* background-color: #f0f0f0;
+    color: #333; */
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    resize: none;
+    overflow-y: auto
+}
+
+
+
+.json-input.dark {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.json-input.light {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.format-btn {
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.json-output-container {
+    display: absolute;
+    flex: 2;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.json-output-container.expanded {
+    flex: 1 1 100%;
+}
+
+.json-footer {
+    margin-top: 10px;
+}
+
+.json-path {
+    font-family: monospace;
+    color: inherit;
+}
+
+.json-formatter.dark .json-output-container {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+}
+
+.json-formatter.light .json-output-container {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.input-collapse-btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0px -10px 0px -8px ;
+}
+
+.input-collapse-btn.dark{
+    background-color: #171717;
+    color: #f0f0f0;
+}
+
+.input-collapse-btn.light{
+    background-color: #ffffff;
+    color: #333;
+}
+
+.input-icon{
+    font-size: 2.0rem;
+}
+.input-icon.dark{
+    color: #f0f0f0;
+}
+.input-icon.light{
+    color: #333;
+}
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px 0 0 0;
+    padding: 5px;
+    color: white;
+}
+
+.toolbar button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+
+.json-input-container,
+.json-output-container {
+    position: relative;
+}
+
+

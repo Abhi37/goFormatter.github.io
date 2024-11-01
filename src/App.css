@@ -1,0 +1,73 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevents scroll bars on the body */
+}
+
+.dark {
+  background-color: #333333;
+  color: #f0f0f0;
+}
+
+.light {
+  background-color: #F7F9F8; /* Softer light theme background */
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  gap: 10px; /* Adds 10px space between sidebar and main content */
+  height: 100vh; /* Ensures full viewport height without extra scroll */
+  padding: 10px; /* Adds the visual padding around */
+  box-sizing: border-box;
+}
+
+.sidebar {
+  position: relative; /* Allows absolute positioning of the .expand-icon */
+  width: 200px;
+  background-color: #171717;
+  border-radius: 20px;
+  height: 100%; /* Fills available height */
+  box-shadow: 0px 0px 10px #2C2C2C; /* Softer shadow for dark theme */
+  overflow: hidden;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #171717;
+  border-radius: 10px;
+  height: 100%; /* Ensures it fills the remaining height */
+  box-shadow: 0px 0px 10px #2C2C2C; /* Matches sidebar shadow */
+  overflow: hidden; /* Prevents any internal scrolling */
+}
+
+.main-content.dark {
+  background-color: #171717;
+}
+
+.main-content.light {
+  background-color: #F7F9F8; /* Matches light theme background */
+}
+
+.expand-icon {
+  position: absolute; /* Position relative to the .sidebar */
+  top: 40px; /* Adjust this to move the icon vertically */
+  left: 85px; /* Moves the icon close to the sidebar’s right edge */
+  z-index: 1; /* Ensures it stays on top of other content */
+  
+}
+
+.expand-icon.dark {
+  color: #f0f0f0;
+  background-color: #333333;
+}
+
+.expand-icon.light {
+  color: #333; /* Matches the dark text in light theme */
+  background-color: transparent;
+}
